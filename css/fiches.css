@@ -1,0 +1,43 @@
+label{
+
+}
+
+.ficheContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    flex: 1 0 0;
+    align-self: stretch;
+    background: #e0e0e0;
+    
+}
+
+.PointsFiche
+{
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+.PointsFiche>.title{
+    display: flex;
+    
+    height: 61px;
+    padding: 11px 152px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    background: #ffffff;
+}
+.input-group{
+    display: flex;
+    align-self: stretch;
+    flex-direction: column; 
+    padding-top: 5px;
+}
+.input-group>span{
+    width:100px;
+}

@@ -1,0 +1,198 @@
+[
+  {
+    "id": "log_mail",
+    "EN": "Email adress :"
+  },
+  {
+    "id": "log_mdp",
+    "EN": "Password :"
+  },
+  {
+    "id": "log_buy",
+    "EN": "Buy"
+  },
+  {
+    "id": "log_connect",
+    "EN": "Login"
+  },
+  {
+    "id": "log_connect_succes",
+    "EN": "Login successful."
+  },
+  {
+    "id": "log_login_failed",
+    "EN": "Connexion failed."
+  },
+  {
+    "id": "log_connect_migrate",
+    "EN": "Migrate licence"
+  },
+  {
+    "id": "log_migrate_connect_failed",
+    "EN": "Can't connect to server."
+  },
+  {
+    "id": "log_migrate_success",
+    "EN": "Migration succeed."
+  },
+  {
+    "id": "log_migrate_failed",
+    "EN": "Migration failed."
+  },
+  {
+    "id": "log_connection_lost",
+    "EN": "Can't reach server."
+  },
+  {
+    "id": "function_spe",
+    "EN": "Specific functions"
+  },
+  {
+    "id": "energetics_axis",
+    "EN": "Energetics Axis"
+  },
+  {
+    "id": "pathologies",
+    "EN": "Pathologies"
+  },
+  {
+    "id": "multiple_selection_mode",
+    "EN": "Multiple selection mode"
+  },
+  {
+    "id": "language",
+    "EN": "Language"
+  },
+  {
+    "id": "nomenclature",
+    "EN": "Points Nomenclature"
+  },
+  {
+    "id": "symmetry",
+    "EN": "Points symmetry"
+  },
+  {
+    "id": "disconnect",
+    "EN": "Disconect"
+  },
+  {
+    "id": "text_language",
+    "EN": "(Restart the software)"
+  },
+  {
+    "id": "text_nomenclature",
+    "EN": "(Restart the software)"
+  },
+  {
+    "id": "text_symmetry",
+    "EN": "(Show points and meridians on both side of the 3D model)"
+  },
+  {
+    "id": "active",
+    "EN": "Active"
+  },
+  {
+    "id": "disable",
+    "EN": "Disable"
+  },
+  {
+    "id": "localisation",
+    "EN": "Localisation"
+  },
+  {
+    "id": "actions",
+    "EN": "Actions"
+  },
+  {
+    "id": "therapeutic_info",
+    "EN": "Therapeutic Informations"
+  },
+  {
+    "id": "role",
+    "EN": "Role"
+  },
+  {
+    "id": "more_info",
+    "EN": "More Infos"
+  },
+  {
+    "id": "chinese_energetic",
+    "EN": "Chinese energetic"
+  },
+  {
+    "id": "suggestions",
+    "EN": "Suggestions"
+  },
+  {
+    "id": "tips",
+    "EN": "Tips"
+  },
+  {
+    "id": "other",
+    "EN": "Other"
+  },
+  {
+    "id": "description",
+    "EN": "Description"
+  },
+  {
+    "id": "research_placeholder",
+    "EN": "ex : 3F, heart, ..."
+  },
+  {
+    "id": "save_note",
+    "EN": "save personal note"
+  },
+  {
+    "id": "annexe",
+    "EN": "Annexes"
+  },
+  {
+    "id": "psychism",
+    "EN": "Psychism"
+  },
+  {
+    "id": "blood",
+    "EN": "Blood"
+  },
+  {
+    "id": "qi",
+    "EN": "QI"
+  },
+  {
+    "id": "aliments",
+    "EN": "Aliments"
+  },
+  {
+    "id": "liquid",
+    "EN": "Liquids"
+  },
+  {
+    "id": "blood_qi_liquid",
+    "EN": "Blood, QI and liquids"
+  },
+  {
+    "id": "5_elements",
+    "EN": "The 5 elements"
+  },
+  {
+    "id": "great_vessel",
+    "EN": "The great vessels"
+  },
+  {
+    "id": "add_note",
+    "EN": "Add a personal note"
+  },
+  {
+    "id": "meridian",
+    "EN": "Meridian"
+  },
+  {
+    "id": "schedule",
+    "EN": "Schedule"
+  },
+  {
+    "id": "control_points",
+    "EN": "Control points"
+  }
+]

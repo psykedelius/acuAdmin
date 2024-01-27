@@ -1,0 +1,155 @@
+[
+  {
+    "Id": "fun_ben",
+    "Shortname": "Ben-Transporting Points",
+    "Name": "5 Phase Transporting (Ben) Points",
+    "Description": "The 5 Phase Transporting  (Ben) points are also known as  \"Seasonal\" points  since can be used to rebalance  an organ  in its corresponding phase- related season..",
+    "Option1": "",
+    "Option2": "",
+    "Option3": ""
+  },
+  {
+    "Id": "fun_mdy",
+    "Shortname": "The Heavenly Star Points of Ma Dan Yang",
+    "Name": "The Heavenly Star Points of Ma Dan Yang",
+    "Description": "There are 12 Heavenly Star Points of Ma Dan Yang.  They were thus named by Ma Dang Yang who considered them to be  the most important points on the body and used them alone in treating the majority of his patients.",
+    "Option1": "",
+    "Option2": "",
+    "Option3": ""
+  },
+  {
+    "Id": "fun_bie",
+    "Shortname": "He Jing Bie Points",
+    "Name": "He Jing Bie Points",
+    "Description": "The He Jing Bie points are the meeting points of the Jing Bie, also known as the Divergent  Vessels. The Jing Bie are the branches which facilitate the coupling of the Jing Mai with their associated organ and and its coupled viscera  The Yin Jing Bie (Channel divergences)   (ex: @bie_rt@), originates in the area the area close to the  corresponding  Jing Mai (@mai_rt@), to penetrate deeply, connecting with the Zang organ (Spleen), and then the Fu organ (Stomach), subsequently emerging on the corresponding Yang Jing Mai (Channel) (@mai_e@), at the  He  point of the Jing Bie ($4RT$).  The Jing Bie (Channel divergences) of the  Fu-Yang  organs    (eg: @bie_rt@), originate in the area close to the  corresponding  Jing Mai (@mai_rt@), then penetrate deeply, connecting with the Zang-Yin organ (Spleen), and then the Fu_Yang organ (Stomach), finally  emerging on the corresponding Zang-Yin Jing Mai- Channel (@mai_e@), at the  He  point of the Jing Bie ($1E$).",
+    "Option1": "",
+    "Option2": "",
+    "Option3": ""
+  },
+  {
+    "Id": "fun_hui",
+    "Shortname": "Hui-Meeting Points",
+    "Name": "Hui-Meeting Points",
+    "Description": "The 8 Hui-Meeting points enable the simultaneous treatment of eight specifically related tissues:\n- Tendons and muscles,\n- Bones,\n- Marrow,\n- Blood vessels,\n- Organs (Zang),\n- Bowels (Fu),\n- Blood\n- Qi",
+    "Option1": "",
+    "Option2": "",
+    "Option3": ""
+  },
+  {
+    "Id": "fun_shu",
+    "Shortname": "Shu Points",
+    "Name": "Shu Points",
+    "Description": "the Shu points, generally referred to as \"Back Shu points, are those points located on the medial line of the Urinary Bladder Jing Mai-Channel. In addition to belonging to the Jing Mai-Channel of the urinary bladder, these points have specifically unique attributes. They act directly on the Qi of the specific organ with which they are associated; supplementing or draining. They can also be used diagnostically  to expose an internal disharmony.  If one of the Shu points is sensitive to pressure it may indicate a problem in the associated organ. They work in concert with the Mu-Alarm points. One approach, known as the Shu-Mu technique,  consists in first draining evil Qi from an organ by needling the Shu point, then supplementing the upright Qi via the associated Mu point.",
+    "Option1": "",
+    "Option2": "",
+    "Option3": ""
+  },
+  {
+    "Id": "fun_luo",
+    "Shortname": "Luo Points",
+    "Name": "Luo Points",
+    "Description": "The Luo-Connecting points provide a means to act on the longitudinal  and transverse Luo-Connecting channels. The Jing Luo( transverse) connecting channels circulate at the surface of the body and can be assessed by the appearance of the capillaries. The transverse Luo channels define the Yin/Yang relationship and thus provide means of two-way communication between the coupled Yin and Yang Jing Mai-Channels, as with the @mai_p@ and  the @mai_gi@).\nThe Luo-Connecting points  can be used to extract malign Qi that had penetrated  these networks, and restore the flow of upright  Qi.",
+    "Option1": "",
+    "Option2": "",
+    "Option3": ""
+  },
+  {
+    "Id": "fun_mu",
+    "Shortname": "Mu Points",
+    "Name": "Mu Points",
+    "Description": "The Mu-Alarm points act on their associated organ. They are located on the anterior aspect of the torso (chest and abdomen). They function to convey upright Qi to an organ and function primarily to supplement the Qi of an organ, excepting certain points (eg:  $14F$ which can be in a replete condition).\nThey can also be used diagnostically,  to expose an internal disharmony.  If one of the Mu-alarm points points is sensitive to pressure or is spontaneously tender it may indicate a problem in the associated  organ.\nAs such, they can be associated with  Yuan-Source  points, which can also provide a diagnotic  element via palpation.\nThey work in concert with the Mu-Alarm points. One approach, known as the Shu-Mu technique,  consists in first draining evil Qi from an organ by needling the Shu point, then supplementing the upright Qi via the associated Mu point.",
+    "Option1": "",
+    "Option2": "",
+    "Option3": ""
+  },
+  {
+    "Id": "fun_4mers",
+    "Shortname": "The Four Seas Points",
+    "Name": "The Four Seas Points",
+    "Description": "The 12 Jing Mai-Channels pour into large reservoirs named \"The Four Seas\". The Four Seas points give access to the following systems:                                                                                   -The Sea of Water and Grains:\n-The Sea of Marrow;\n- The Sea of Blood;\n- and the Sea of Qi;",
+    "Option1": "",
+    "Option2": "",
+    "Option3": ""
+  },
+  {
+    "Id": "fun_rev",
+    "Shortname": "Ghost Points",
+    "Name": "Ghost Points",
+    "Description": "The Ghost Points were introduced by Sun SI Miao.. They are 13 in number, including one Extra (non-meridian) point, Hai Quan). They are indicated within the field  of mental illnesses, psychosis...",
+    "Option1": "",
+    "Option2": "",
+    "Option3": ""
+  },
+  {
+    "Id": "fun_1",
+    "Shortname": "Jing-Well Points  ( Antique Shu)",
+    "Name": "Jing-Well Points  ( Antique Shu)",
+    "Description": "The Jing-Well points are located at the extremities of the channels, at the tips of the fingers and toes, A cet endroit on observe un changement de polarité de l'énergie, yin/yang. Most notably they can promote the extraction of malign Qi. Additionally they have the property of pacifying the Shen. As Jin Jing control points , they can act on the entire tendinomuscular system.",
+    "Option1": "",
+    "Option2": "",
+    "Option3": ""
+  },
+  {
+    "Id": "fun_2",
+    "Shortname": "Ying Spring Points (Antique Shu )",
+    "Name": "Ying Spring Points (Antique Shu )",
+    "Description": "The Ying (also known as\"Spring\") or Ying-Spring points, are often used to clear Heat.",
+    "Option1": "",
+    "Option2": "",
+    "Option3": ""
+  },
+  {
+    "Id": "fun_3",
+    "Shortname": "Shu Points ( Antique Shu)",
+    "Name": "Shu Points ( Antique Shu)",
+    "Description": "These Shu points, also known as River, or Shu-River points, facilitate the removal of malign Qi, specially in clearing pathological dampness in disorders of the joints.",
+    "Option1": "",
+    "Option2": "",
+    "Option3": ""
+  },
+  {
+    "Id": "fun_4",
+    "Shortname": "Jing(2) Points  ( Antique Shu)",
+    "Name": "Jing(2) Points  ( Antique Shu)",
+    "Description": "The Jing(2) points, also known as River, or Jing-River Points' restore \"correct\" or  \"upright\" Qi in the Channel.",
+    "Option1": "",
+    "Option2": "",
+    "Option3": ""
+  },
+  {
+    "Id": "fun_5",
+    "Shortname": "He Points (Antique Shu)",
+    "Name": "He Points (Antique Shu)",
+    "Description": "The He points, also called Sea or He-Sea points, are the areas where Qi flows into the deep. They treat disorders of The Stomach,  problems with digestion, the skin and disorders related to sight.",
+    "Option1": "",
+    "Option2": "",
+    "Option3": ""
+  },
+  {
+    "Id": "fun_tian",
+    "Shortname": "Tian Points",
+    "Name": "Tian Points",
+    "Description": "The Tian, or Window of the Sky,  points facilitate communication between the  Sky and Earth,  link  the upper and lower body,  and orchestrate  the ascent and descent of Qi. They are sites of entry for penetration by malign Qi.   \nThey can be used to release blockages in the neck and to restore the free flow of Qi in the channels. They also act on the Shen.",
+    "Option1": "",
+    "Option2": "",
+    "Option3": ""
+  },
+  {
+    "Id": "fun_xi",
+    "Shortname": "Xi Points",
+    "Name": "Xi Points",
+    "Description": "Xi Points, also called Xi-Cleft are used  as emergency points to clear stagnation of Qi on a Channel (often used  during an acute or recent contracted disease)..",
+    "Option1": "",
+    "Option2": "",
+    "Option3": ""
+  },
+  {
+    "Id": "fun_yuan",
+    "Shortname": "Yuan Points",
+    "Name": "Yuan Points",
+    "Description": "The Yuan points are also called Source, or Yuan-Source source.\nThey are related to Original Qi, and  as such they raise the original Source Qi energy in the Channel and / or organ.",
+    "Option1": "",
+    "Option2": "",
+    "Option3": ""
+  }
+]

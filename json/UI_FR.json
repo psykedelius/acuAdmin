@@ -1,0 +1,198 @@
+[
+  {
+    "id": "log_mail",
+    "FR": "Adresse email :"
+  },
+  {
+    "id": "log_mdp",
+    "FR": "Mot de passe :"
+  },
+  {
+    "id": "log_buy",
+    "FR": "Acheter"
+  },
+  {
+    "id": "log_connect",
+    "FR": "Connexion"
+  },
+  {
+    "id": "log_connect_succes",
+    "FR": "Identification réussie"
+  },
+  {
+    "id": "log_login_failed",
+    "FR": "Identification impossible"
+  },
+  {
+    "id": "log_connect_migrate",
+    "FR": "Migrer la licence"
+  },
+  {
+    "id": "log_migrate_connect_failed",
+    "FR": "Connexion au serveur impossible."
+  },
+  {
+    "id": "log_migrate_success",
+    "FR": "Migration réussie."
+  },
+  {
+    "id": "log_migrate_failed",
+    "FR": "Migration impossible."
+  },
+  {
+    "id": "log_connection_lost",
+    "FR": "Connexion au serveur impossible."
+  },
+  {
+    "id": "function_spe",
+    "FR": "Fonctions Spécifiques"
+  },
+  {
+    "id": "energetics_axis",
+    "FR": "Axes Energétiques"
+  },
+  {
+    "id": "pathologies",
+    "FR": "Pathologies"
+  },
+  {
+    "id": "multiple_selection_mode",
+    "FR": "Mode de sélection multiple"
+  },
+  {
+    "id": "language",
+    "FR": "Langue"
+  },
+  {
+    "id": "nomenclature",
+    "FR": "Nomenclature des points"
+  },
+  {
+    "id": "symmetry",
+    "FR": "Symétrie des points"
+  },
+  {
+    "id": "disconnect",
+    "FR": "Se déconnecter"
+  },
+  {
+    "id": "text_language",
+    "FR": "(Redémarre l'application)"
+  },
+  {
+    "id": "text_nomenclature",
+    "FR": "(Redémarre l'application)"
+  },
+  {
+    "id": "text_symmetry",
+    "FR": "(Affiche les points et méridiens des deux cotés du modèle 3D)"
+  },
+  {
+    "id": "active",
+    "FR": "Activé"
+  },
+  {
+    "id": "disable",
+    "FR": "Désactivé"
+  },
+  {
+    "id": "localisation",
+    "FR": "Localisation"
+  },
+  {
+    "id": "actions",
+    "FR": "Actions"
+  },
+  {
+    "id": "therapeutic_info",
+    "FR": "Informations Thérapeutiques"
+  },
+  {
+    "id": "role",
+    "FR": "Rôle"
+  },
+  {
+    "id": "more_info",
+    "FR": "Plus d'infos"
+  },
+  {
+    "id": "chinese_energetic",
+    "FR": "Énergétique chinoise"
+  },
+  {
+    "id": "suggestions",
+    "FR": "Suggestions"
+  },
+  {
+    "id": "tips",
+    "FR": "Conseils"
+  },
+  {
+    "id": "other",
+    "FR": "Autres"
+  },
+  {
+    "id": "description",
+    "FR": "Description"
+  },
+  {
+    "id": "research_placeholder",
+    "FR": "ex : 3F, coeur, acné, ..."
+  },
+  {
+    "id": "save_note",
+    "FR": "sauvegarder la note personnelle"
+  },
+  {
+    "id": "annexe",
+    "FR": "Annexes"
+  },
+  {
+    "id": "psychism",
+    "FR": "Le psychisme"
+  },
+  {
+    "id": "blood",
+    "FR": "Le sang"
+  },
+  {
+    "id": "qi",
+    "FR": "Le QI"
+  },
+  {
+    "id": "aliments",
+    "FR": "Les aliments"
+  },
+  {
+    "id": "liquid",
+    "FR": "Les liquides"
+  },
+  {
+    "id": "blood_qi_liquid",
+    "FR": "Sang, QI et liquides"
+  },
+  {
+    "id": "5_elements",
+    "FR": "Les 5 éléments"
+  },
+  {
+    "id": "great_vessel",
+    "FR": "Les merveilleux vaisseaux"
+  },
+  {
+    "id": "add_note",
+    "FR": "Ajouter une note personelle"
+  },
+  {
+    "id": "meridian",
+    "FR": "Méridien"
+  },
+  {
+    "id": "schedule",
+    "FR": "Horaire"
+  },
+  {
+    "id": "control_points",
+    "FR": "Points clés"
+  }
+]
