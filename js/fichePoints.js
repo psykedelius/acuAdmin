@@ -21,7 +21,7 @@ function createFichePoint(pointId){
         labelElement.textContent = pointId;
         ficheContent.appendChild(labelElement);
 
-
+//ty
     // Create a form element
     const form = document.createElement('form');
     form.classList.add('input-group');
