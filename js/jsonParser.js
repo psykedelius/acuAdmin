@@ -31,16 +31,16 @@ async function fetchDataAndParse(fileName) {
 
   (async () => {
     //preload all the json and store them in 'dataBase' for later use
-    dataBase.POINTS   = await fetchDataAndParse('POINTS');
-    dataBase.POINTS_FR = await fetchDataAndParse('POINTS_FR');
-    dataBase.POINTS_EN = await fetchDataAndParse('POINTS_EN');
-    dataBase.MERIDIANS = await fetchDataAndParse('MERIDIANS');
+    dataBase.POINTS       = await fetchDataAndParse('POINTS');
+    dataBase.POINTS_FR    = await fetchDataAndParse('POINTS_FR');
+    dataBase.POINTS_EN    = await fetchDataAndParse('POINTS_EN');
+    dataBase.MERIDIANS    = await fetchDataAndParse('MERIDIANS');
     dataBase.MERIDIANS_FR = await fetchDataAndParse('MERIDIANS_FR');
     dataBase.MERIDIANS_EN = await fetchDataAndParse('MERIDIANS_EN');
     dataBase.FUNCTIONS_FR = await fetchDataAndParse('FUNCTIONS_FR');
     dataBase.FUNCTIONS_EN = await fetchDataAndParse('FUNCTIONS_EN');
     //dataBase = tempDataBase;
-    if (dataBase.POINTS && dataBase.POINTS_FR && dataBase.POINTS_EN) { 
+    if (dataBase.POINTS && dataBase.POINTS_FR && dataBase.POINTS_EN && dataBase.MERIDIANS_FR ) { 
       
       createButtons(dataBase.POINTS);  
     }
@@ -66,8 +66,8 @@ async function fetchDataAndParse(fileName) {
       // Attach click event handler to the button
       button.addEventListener('click', () => {
         // Handle the button click by accessing the corresponding data
-        console.log('Clicked button data:', item.Id.toString());
-        createFichePoint(item.Id.toString()) ;
+        
+        createFichePoint(item) ;
         // You can use 'item' to access properties like item.Id, item.NumInt, etc.
       });
   
@@ -93,4 +93,9 @@ function filterButtons() {
       button.style.display = 'none'; // Hide the button
     }
   }
+}
+
+function adjustTextareaSize( textarea ) {
+  textarea.style.height = "auto"; // Reset height to auto
+  textarea.style.height = `${textarea.scrollHeight}px`; // Set height to the scrollHeight
 }

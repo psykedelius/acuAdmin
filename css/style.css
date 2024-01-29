@@ -110,3 +110,9 @@ span{
 .button:hover{
     background: #eeeeee;
 }
+
+textarea {
+    width: 100%;
+    min-height: 100px; /* Set a minimum height */
+    resize: none; /* Disable manual resizing */
+  }
