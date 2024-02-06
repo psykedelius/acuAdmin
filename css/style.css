@@ -12,8 +12,8 @@ body{
 .show{
     width:200px;
 }
-p{
-    color: #000; 
+h2 p{
+    color: #000;  
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-size: 14px;
@@ -26,8 +26,9 @@ span{
 }
 .header{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    
+    justify-content: start;
     align-items: flex-start;
     flex: 1 1 1;  
     align-self: stretch;

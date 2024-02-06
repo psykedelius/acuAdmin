@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS\test.css" >
+    <title>AcuAdmin</title>
+    <!--three.js -->
+    <!--<script type="module" src="ressources\webgl\fbxLoader.js"></script>-->
+    <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+
+
+</head>
+<body>
+    <div class="body" >
+      <div class="rectangle"></div>
+        <!--navBar -->
+        <div class="header justify-content-between">
+          <div class="brand"> </div>
+            <nav class="nav scrollspy-nav justify-content-between "> 
+                <a class=" scrollspy-link"        data-target="Canvas" >About Me </a>
+                <a class=" scrollspy-link"        data-target="carousel">Works</a>
+                <a class=" scrollspy-link"        data-target="contact">Pricing</a>
+                <a class=" scrollspy-link"        data-target="footer">Contact</a>
+                <span class="scrollspy-indicator"></span>
+            </nav>
+        </div>
+        <!--Fin navBar -->
+
+
+
+        <!--Intro WebGL -->
+        <section class="scrollspy-section  position-relative mandatory-scroll-snapping" id="Canvas">   
+          <div class="overCanvas" id = "overCanvas">
+            <h1>Guillaume Hardouin</h1>
+            <h2>blabla</h2>  
+          </div>
+          <div id="progressBar">
+            <div id="progress"></div>
+          </div>
+        </section>
+        <!--fin Intro WebGL-->
+
+        <!--Carousel --> 
+        <section class=" bg-light scrollspy-section mandatory-scroll-snapping " id="carousel">
+  
+          <!--carousel -->
+          <div class="grid " id="carouselGrid">
+            <!--Left -->
+            <aside class=" aside left">
+              <button class="button " onclick="toggleCardSets('Code')">
+                <div class="picto brand-Code "></div>
+                <div class="label border-1  d-inline-flex text-nowrap">Développement Web</div>
+              </button>
+              <button class="button" onclick="toggleCardSets('Games')">
+                
+                  <div class="picto brand-Joystick"></div>
+                  <div class="label border-1  d-inline-flex text-nowrap">Jeux</div>
+              
+              </button>
+              <button class="button" onclick="toggleCardSets('Apps')">
+                <div class="picto brand-Unity3d"></div>
+                <div class="label border-1  d-inline-flex text-nowrap">Développement Unity</div>
+              </button>
+            </aside>
+
+            <!--right -->
+            <div class="Code " >            
+              <div class="card-deck scrollspy-section" id="Code">
+                <div class="card" >
+                  <img class="card-img-top " src="ressources\coupe-rase.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">HTML</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top " src="ressources\coupe-rase.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">PHP</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top " src="ressources\coupe-rase.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">JAVASCRIPT</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top " src="ressources\coupe-rase.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">JAVASCRIPT</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </div>
+                </div> 
+              </div>   
+
+
+              <div class="card-deck " style="display:none;" id="Games">
+                <div class="card">
+                  <img class="card-img-top" src="ressources\Games\plateformer.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Game 1</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="ressources\Games\lander.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="ressources\coupe-rase.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </div>
+                </div>
+              </div>   
+
+
+              <div class="card-deck " style="display:none;" id="Apps">
+                <div class="card">
+                  <img class="card-img-top" src="ressources\coupe-rase.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">App 1</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="ressources\coupe-rase.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="ressources\coupe-rase.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </div>
+                </div>
+              </div>   
+
+            </div>
+          </div>
+
+        </section>
+        <!--fin Carousel -->
+       
+        <!--Contact -->
+        <section class=" bg-danger scrollspy-section mandatory-scroll-snapping" id="contact"> 
+        </section>
+        <!--fin Contact -->
+
+        <!--Footer -->
+        <section class="footer bg-dark scrollspy-section mandatory-scroll-snapping" id="footer"> 
+        </section>
+        <!--fin Footer -->
+    </div>
+
+    <!--SCROLL-->
+    <script src="./js/scrollspy.js"></script>
+
+    <!--WEBGL-->
+    <script type="importmap">
+			{
+				"imports": {
+					"three": "./js/three.module.js",
+					"three/addons/": "./js/three/jsm/"
+				}
+			}
+		</script>
+    <script type="module" src="./js/webglScene.js"></script>
+
+    <!--CAROUSELL-->
+    <script>
+
+      function carousel_responsive(){
+        var carouselGridElt  = document.getElementById("carouselGrid");
+
+
+      }
+
+
+      function toggleCardSets( cardSetName) {
+       
+        var CodeElt  = document.getElementById("Code");
+        var GamesElt = document.getElementById("Games");
+        var AppsElt  = document.getElementById("Apps");
+        if (cardSetName == "Code")
+        {
+          console.log('cardSetName '+cardSetName);
+          CodeElt.style.display = "flex";
+          GamesElt.style.display = "none";
+          AppsElt.style.display = "none";
+        }       
+        if (cardSetName == "Games")
+        {
+          console.log('cardSetName '+cardSetName);
+          CodeElt.style.display = "none";
+          GamesElt.style.display = "flex";
+          AppsElt.style.display = "none";
+        }
+        if (cardSetName == "Apps")
+        {
+          console.log('cardSetName '+cardSetName);
+          CodeElt.style.display = "none";
+          GamesElt.style.display = "none";
+          AppsElt.style.display = "flex";
+        }
+
+        
+      }
+    </script>
+</body>
+</html>

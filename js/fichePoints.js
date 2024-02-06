@@ -33,11 +33,11 @@ function createFichePoint(item){
             createInputField(form,'input','Nom chinois :', item, 'Chinese');
             createInputField(form,'input','Couleur :', item, 'Color');
             createInputField(form,'input','Méridien :', item, 'Meridian');
-            createInputField(form,'input','Iong :', findEntryById(item.Meridian, dataBase.MERIDIANS_FR), 'Iong');
-            createInputField(form,'textarea','Actions :', findEntryById(item.Id, dataBase.POINTS_FR), 'Actions');
-            createInputField(form,'textarea','Localisation :', findEntryById(item.Id, dataBase.POINTS_FR), 'Localisation');
+            createInputField(form,'input','Iong :', findEntryById(item.Meridian, dataBase['MERIDIANS_FR']), 'Iong');
+            createInputField(form,'textarea','Actions :', findEntryById(item.Id, dataBase['POINTS_FR']), 'Actions');
+            createInputField(form,'textarea','Localisation :', findEntryById(item.Id, dataBase['POINTS_FR']), 'Localisation');
             createInputField(form,'input','Fonction Spécifique:', item, 'Functions');
-            createInputField(form,'textarea','Informations:', findEntryById(item.Id, dataBase.POINTS_FR), 'Indications_Therapeutiques');
+            createInputField(form,'textarea','Informations:', findEntryById(item.Id, dataBase['POINTS_FR']), 'Indications_Therapeutiques');
             // Append the form to the 'ficheContainer' div
             container.appendChild(form);
 
@@ -76,7 +76,8 @@ function createInputField(parentDiv,fieldType,labelText, dataFile, dataKey)
         const inputElement  = document.createElement(fieldType);
         inputElement.type   = 'text';
         inputElement.value  = dataFile[dataKey].toString();
-        inputElement.name   = label; 
+        inputElement.name   = dataKey; 
+        inputElement.id     = dataKey;
         if (fieldType == 'textarea'){
             adjustTextareaSize( inputElement );
         }
@@ -87,13 +88,50 @@ function createInputField(parentDiv,fieldType,labelText, dataFile, dataKey)
 }
 
 
-// Function to handle form submission (you can customize this function)
-function handleFormSubmission(form) {
-    // Access form data and perform actions here
-    //Save new Json file
-    console.log('Form submitted! Data:', new FormData(form));
-}
 
 function findEntryById(id, data) {
     return data.find(entry => entry.Id === id);
-  }
+}
+
+async function handleFormSubmission(form) {
+
+  // Update form data with user input
+  const formData = new FormData(form);
+  const curFormData = {};
+
+  //For each value key of the form we store the result in an associative array
+  formData.forEach((value, key) => {
+    curFormData[key] = value; 
+  });
+
+
+  let keysArray = Object.keys(dataBase);//keysArray = {POINTS,POINTS_FR,MERIDANS,...}
+  console.log('handleFormSubmission2 entrys:', keysArray); 
+
+  keysArray.forEach((key) => {
+    //on exclus les données en anglais pour l'instant
+    if (key.includes('EN')){return;}
+    //let dataBaseEntryPoints = findEntryById(curFormData.Id, baseToUpdate);
+    
+    let baseToUpdate = dataBase[key] ; 
+    let dataBaseEntryPoints = findEntryById(curFormData.Id, baseToUpdate);
+    
+    if (typeof dataBaseEntryPoints != 'undefined')
+    {
+      console.log('database entry to change in ',key,':',dataBaseEntryPoints); 
+      if (curFormData.Id == dataBaseEntryPoints.Id)
+      {
+        //pour chaque clef de dataBaseEntryPoints
+        Object.entries(dataBaseEntryPoints).forEach(([key, value]) => {
+          //si la clef est contenue dans curFormData
+          if (curFormData.hasOwnProperty(key )){
+            //la remplacer la valeur de la clef dataBaseEntryPoints avec celle de curFormData
+            dataBaseEntryPoints[key] = curFormData[key]; 
+          }
+        }); 
+      } 
+    } 
+    console.log('Save : ',key,' ',baseToUpdate);
+    const saveResult =  saveDataToServer( key,baseToUpdate);
+  });
+}

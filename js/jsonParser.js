@@ -1,5 +1,6 @@
 let  dataBase = {};
 let tempDataBase = {};
+let baseUrl = 'https://guillaumehardouin.com/portfolio/webProjects/acuAdmin/'
 // Function to fetch and parse JSON
 async function fetchDataAndParse(fileName) {
     // Ensure fileName is a string
@@ -8,7 +9,7 @@ async function fetchDataAndParse(fileName) {
       return null;
     }
     // Replace 'your-json-file-url' with the actual URL of your JSON file
-    const jsonFileUrl = '../json/'+ fileName +'.json';
+    const jsonFileUrl = baseUrl+'/json/'+ fileName +'.json';
     try {
         // Using the fetch API to retrieve JSON data
         const response = await fetch(jsonFileUrl);
@@ -39,7 +40,7 @@ async function fetchDataAndParse(fileName) {
     dataBase.MERIDIANS_EN = await fetchDataAndParse('MERIDIANS_EN');
     dataBase.FUNCTIONS_FR = await fetchDataAndParse('FUNCTIONS_FR');
     dataBase.FUNCTIONS_EN = await fetchDataAndParse('FUNCTIONS_EN');
-    //dataBase = tempDataBase;
+    //tempDataBase = [...dataBase] ; // make a copy of dataBase array
     if (dataBase.POINTS && dataBase.POINTS_FR && dataBase.POINTS_EN && dataBase.MERIDIANS_FR ) { 
       
       createButtons(dataBase.POINTS);  

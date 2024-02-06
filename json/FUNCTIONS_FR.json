@@ -1,155 +1,155 @@
 [
-  {
-    "Id": "fun_ben",
-    "Shortname": "Points Ben",
-    "Name": "Points Ben",
-    "Description": "Les points Ben sont les points dits de \"saison\" et pourront alors servir à rééquilibrer un organe au sein de sa saison.",
-    "Option1": "",
-    "Option2": "",
-    "Option3": ""
-  },
-  {
-    "Id": "fun_mdy",
-    "Shortname": "Points Étoiles Céleste de Ma Dan Yang",
-    "Name": "Points Étoiles Céleste de Ma Dan Yang",
-    "Description": "Les points Étoiles Céleste de Ma Dan Yang, au nombre de douze, ont été nommé ainsi par Ma Dan Yang, qui considérait ceux-ci comme les points les plus importants du corps (traitant à eux seuls la majorité des pathologies).",
-    "Option1": "",
-    "Option2": "",
-    "Option3": ""
-  },
-  {
-    "Id": "fun_bie",
-    "Shortname": "Points He des Jing Bie",
-    "Name": "Points He des Jing Bie",
-    "Description": "Les points He des Jing Bie, sont les points de réunion des Jing Bie (aussi appelés vaisseaux divergeants). Les Jing Bie étant des branches qui permettent de faire la liaison entre les Jing Mai et, leur organe associé et viscère couplée. Les Jing Bie des Yin (ex: @bie_rt@), partent de la zone li du Jing Mai correspondant (@mai_rt@), pour pénétrer en profondeur, faire le lien avec le Zang (Rate) puis le Fu (Estomac), pour émerger sur le Jing Mai yang correspondant (@mai_e@), au point He des Jing Bie ($4RT$). Les Jing Bie des Yang (ex: @bie_e@), partent de la zone li du Jing Mai correspondant (@mai_e@), pour pénétrer en profondeur, faire le lien avec le Fu (Estomac) puis le Zang (Rate), pour ressortir sur le Jing Mai du Fu correspondant (@mai_e@), au point He des Jing Bie ($1E$).",
-    "Option1": "",
-    "Option2": "",
-    "Option3": ""
-  },
-  {
-    "Id": "fun_hui",
-    "Shortname": "Points Hui",
-    "Name": "Points Hui",
-    "Description": "Les points Hui, au nombre de huit, également appelés \"points réunions\", permettent d'agir sur huit tissus spécifiques correpondants : \n- les tendons et muscles, \n- les os, \n- la moelle, \n- les vaisseaux sanguins, \n- les organes (Zang), \n- les viscères (Fu),\n- le sang \n- et l'énergie.",
-    "Option1": "",
-    "Option2": "",
-    "Option3": ""
-  },
-  {
-    "Id": "fun_shu",
-    "Shortname": "Points Shu",
-    "Name": "Points Shu",
-    "Description": "Les points Shu, couramment appelés \"shu du dos\", sont des points situés sur toute la première chaine du Jing Mai de Vessie. Bien qu'appartenant au Jing Mai de vessie, ces points possèdent des spécifités d'utilisation qui leurs sont propres. Etant tous associés à un organe, ils ont une action directe sur les organes en tonification ou en dispersion. Ils peuvent également être utilisé comme éléments diagnostics, permettant de mettre au jour une affection interne (à la palpation, si le personne ressent une sensibilité au niveau d'un point Shu, cela peut signifier une atteinte de l'organe correspondant au point). Ils agissent en complémentarité avec les points Mu. Une technique d'utilisation de ces points, nommée la technique Shu/Mu, consiste à extraire dans un premier temps, une énergie perverse d'un organe par le Shu; et à tonifier l'energie correcte de cet organe dans un second temps par le Mu.",
-    "Option1": "",
-    "Option2": "",
-    "Option3": ""
-  },
-  {
-    "Id": "fun_luo",
-    "Shortname": "Points Luo",
-    "Name": "Points Luo",
-    "Description": "Les points Luo permettent d'agir sur les branches luo longitudinales (Jing Luo) et les branches luo transversales. Les Jing Luo (ou branches longitudinales) sont des branches circulant dans des zones superficielles, et s'expriment donc à l'extérieur par la perception des capillaires. Les branches luo transversale font la relation Yin/Yang, à ce titre ils permettent de faire la communication entre un Jing Mai Yin et son Jing Mai Yang couplé, et inversement (exemple : @mai_p@ avec @mai_gi@).\nLes points luo peuvent être utlisés pour extraire une énergie perverse qui aurait pénétré au sein des ces réseaux, et de rétablir la circulation de l'énergie correcte.",
-    "Option1": "",
-    "Option2": "",
-    "Option3": ""
-  },
-  {
-    "Id": "fun_mu",
-    "Shortname": "Points Mu",
-    "Name": "Points Mu",
-    "Description": "Les points Mu agissent sur l'organe associé. Ils sont tous situés sur la partie antérieure du tronc (abdomen et thorax). Ils permettent de ramener l'énergie correcte à un organe et se travaillent donc le plus souvent en tonification, excepté certains points qui peuvent être dispersés (exemple du $14F$ qui peut être en excès). \nlls peuvent également être utilisé comme éléments diagnostics, permettant de mettre au jour une affection interne (à la palpation, si le personne ressent une sensibilité au niveau d'un point Mu, où même de manière spontanée, cela peut signifier une atteinte de l'organe correspondant au point). À ce titre, ils peuvent être associés au point Yuan, qui lui aussi servira d'élément diagnotic à la palpation. \nIls agissent en complémentarité avec les points Shu. Une technique d'utilisation de ses points, nommée la technique Shu/Mu, consiste à extraire dans un premier temps, une énergie perverse d'un organe par le Shu; et à tonifier l'energie correcte de cet organe dans un second temps par le Mu.",
-    "Option1": "",
-    "Option2": "",
-    "Option3": ""
-  },
-  {
-    "Id": "fun_4mers",
-    "Shortname": "Points des Quatre Mers",
-    "Name": "Points des Quatre Mers",
-    "Description": "Les 12 Jing Mai se déversent dans de grands réservoirs nommés les \"Quatres Mers\". Les points des Quatres Mers permettent d'avoir accès à ces systèmes. Nous avons donc : \n- la Mer de Eaux et des Grains;\n- la Mer de la Moelle;\n- la Mer du Sang;\n- et la Mer du Qi.",
-    "Option1": "",
-    "Option2": "",
-    "Option3": ""
-  },
-  {
-    "Id": "fun_rev",
-    "Shortname": "Points des Revenants",
-    "Name": "Points des Revenants",
-    "Description": "Les Points des Revenants ont été répertoriés par Sun Si Miao. Ils sont au nombre de 13 (dont un point hors méridien, Hai Quan). Ils sont indiqués dans le cadre de maladies mentales, de type psychose...",
-    "Option1": "",
-    "Option2": "",
-    "Option3": ""
-  },
-  {
-    "Id": "fun_1",
-    "Shortname": "Points Jing(1) (Shu antique)",
-    "Name": "Points Jing(1) (Shu antique)",
-    "Description": "Les points Jing (1), également appelés \"points puit\", sont les points placés les plus à l'extrémité des méridiens (tous sont aux niveaux du bout des doigts). A cet endroit on observe un changement de polarité de l'énergie, yin/yang. Ils permettent notamment d'extraire les énergies perverses. Ils apaisent également le Shen. En tant que points de commande des Jing Jin, ils permettent d'agir sur tout le système tendino-musculaire.",
-    "Option1": "",
-    "Option2": "",
-    "Option3": ""
-  },
-  {
-    "Id": "fun_2",
-    "Shortname": "Points Ying (Shu antique)",
-    "Name": "Points Ying (Shu antique)",
-    "Description": "Les points Ying, également appelés \"points de jaillissements\", sont souvent utilisés pour extraire une chaleur.",
-    "Option1": "",
-    "Option2": "",
-    "Option3": ""
-  },
-  {
-    "Id": "fun_3",
-    "Shortname": "Points Shu (Shu antique)",
-    "Name": "Points Shu (Shu antique)",
-    "Description": "Les points Shu, également appelés \"points rivière\" permettent notamment d'extraire une énergie perverse, et sont entre autres utilisés dans les problèmes articulaires (de type humidité).",
-    "Option1": "",
-    "Option2": "",
-    "Option3": ""
-  },
-  {
-    "Id": "fun_4",
-    "Shortname": "Points Jing(2) (Shu antique)",
-    "Name": "Points Jing(2) (Shu antique)",
-    "Description": "Les points Jing(2), également appelés \"points fleuve\", rétablisse l'énergie correct dans le méridien.",
-    "Option1": "",
-    "Option2": "",
-    "Option3": ""
-  },
-  {
-    "Id": "fun_5",
-    "Shortname": "Points He (Shu antique)",
-    "Name": "Points He (Shu antique)",
-    "Description": "Les points He, également appelés \"point Mer\", sont les zones où l'énergie pénètre en profondeur. Ils ont une action particulière sur les troubles de l'estomac, les troubles digestifs, cutanées et de la voie.",
-    "Option1": "",
-    "Option2": "",
-    "Option3": ""
-  },
-  {
-    "Id": "fun_tian",
-    "Shortname": "Points Tian",
-    "Name": "Points Tian",
-    "Description": "Les points Tian, ou points Fenêtre du Ciel, permettent le passage Ciel/Terre, font le lien entre le haut et le bas, jouent sur la montée et la descente de l'énergie. Ils sont des zones de pénétration des énergies perverses. Ils peuvent être utilisés pour libérer les obstructions de la nuque et rétablir la libre circulation de l'énergie dans les méridiens. Ils agissent aussi sur le Shen.",
-    "Option1": "",
-    "Option2": "",
-    "Option3": ""
-  },
-  {
-    "Id": "fun_xi",
-    "Shortname": "Points Xi",
-    "Name": "Points Xi",
-    "Description": "Les points Xi, aussi appelés points d'urgence, permettent de désobstruer une stagnation d'énergie sur un méridien (souvent lors d'une atteinte aiguë ou récente).",
-    "Option1": "",
-    "Option2": "",
-    "Option3": ""
-  },
-  {
-    "Id": "fun_yuan",
-    "Shortname": "Points Yuan",
-    "Name": "Points Yuan",
-    "Description": "Les points Yuan, aussi appelés points source. Ils sont en lien avec l'énergie Originelle, à ce titre ils relancent l'énergie originelle dans le méridien et/ou l'organe. Ils peuvent aussi parfois servir comme élément diagnostic, l'aspect des points yuan (yin) pouvant signaler une atteinte d'organe.",
-    "Option1": "",
-    "Option2": "",
-    "Option3": ""
-  }
+    {
+        "Id": "fun_ben",
+        "Shortname": "Points Ben",
+        "Name": "Points Ben",
+        "Description": "Les points Ben sont les points dits de \"saison\" et pourront alors servir \u00e0 r\u00e9\u00e9quilibrer un organe au sein de sa saison.",
+        "Option1": "",
+        "Option2": "",
+        "Option3": ""
+    },
+    {
+        "Id": "fun_mdy",
+        "Shortname": "Points \u00c9toiles C\u00e9leste de Ma Dan Yang",
+        "Name": "Points \u00c9toiles C\u00e9leste de Ma Dan Yang",
+        "Description": "Les points \u00c9toiles C\u00e9leste de Ma Dan Yang, au nombre de douze, ont \u00e9t\u00e9 nomm\u00e9 ainsi par Ma Dan Yang, qui consid\u00e9rait ceux-ci comme les points les plus importants du corps (traitant \u00e0 eux seuls la majorit\u00e9 des pathologies).",
+        "Option1": "",
+        "Option2": "",
+        "Option3": ""
+    },
+    {
+        "Id": "fun_bie",
+        "Shortname": "Points He des Jing Bie",
+        "Name": "Points He des Jing Bie",
+        "Description": "Les points He des Jing Bie, sont les points de r\u00e9union des Jing Bie (aussi appel\u00e9s vaisseaux divergeants). Les Jing Bie \u00e9tant des branches qui permettent de faire la liaison entre les Jing Mai et, leur organe associ\u00e9 et visc\u00e8re coupl\u00e9e. Les Jing Bie des Yin (ex: @bie_rt@), partent de la zone li du Jing Mai correspondant (@mai_rt@), pour p\u00e9n\u00e9trer en profondeur, faire le lien avec le Zang (Rate) puis le Fu (Estomac), pour \u00e9merger sur le Jing Mai yang correspondant (@mai_e@), au point He des Jing Bie ($4RT$). Les Jing Bie des Yang (ex: @bie_e@), partent de la zone li du Jing Mai correspondant (@mai_e@), pour p\u00e9n\u00e9trer en profondeur, faire le lien avec le Fu (Estomac) puis le Zang (Rate), pour ressortir sur le Jing Mai du Fu correspondant (@mai_e@), au point He des Jing Bie ($1E$).",
+        "Option1": "",
+        "Option2": "",
+        "Option3": ""
+    },
+    {
+        "Id": "fun_hui",
+        "Shortname": "Points Hui",
+        "Name": "Points Hui",
+        "Description": "Les points Hui, au nombre de huit, \u00e9galement appel\u00e9s \"points r\u00e9unions\", permettent d'agir sur huit tissus sp\u00e9cifiques correpondants : \n- les tendons et muscles, \n- les os, \n- la moelle, \n- les vaisseaux sanguins, \n- les organes (Zang), \n- les visc\u00e8res (Fu),\n- le sang \n- et l'\u00e9nergie.",
+        "Option1": "",
+        "Option2": "",
+        "Option3": ""
+    },
+    {
+        "Id": "fun_shu",
+        "Shortname": "Points Shu",
+        "Name": "Points Shu",
+        "Description": "Les points Shu, couramment appel\u00e9s \"shu du dos\", sont des points situ\u00e9s sur toute la premi\u00e8re chaine du Jing Mai de Vessie. Bien qu'appartenant au Jing Mai de vessie, ces points poss\u00e8dent des sp\u00e9cifit\u00e9s d'utilisation qui leurs sont propres. Etant tous associ\u00e9s \u00e0 un organe, ils ont une action directe sur les organes en tonification ou en dispersion. Ils peuvent \u00e9galement \u00eatre utilis\u00e9 comme \u00e9l\u00e9ments diagnostics, permettant de mettre au jour une affection interne (\u00e0 la palpation, si le personne ressent une sensibilit\u00e9 au niveau d'un point Shu, cela peut signifier une atteinte de l'organe correspondant au point). Ils agissent en compl\u00e9mentarit\u00e9 avec les points Mu. Une technique d'utilisation de ces points, nomm\u00e9e la technique Shu\/Mu, consiste \u00e0 extraire dans un premier temps, une \u00e9nergie perverse d'un organe par le Shu; et \u00e0 tonifier l'energie correcte de cet organe dans un second temps par le Mu.",
+        "Option1": "",
+        "Option2": "",
+        "Option3": ""
+    },
+    {
+        "Id": "fun_luo",
+        "Shortname": "Points Luo",
+        "Name": "Points Luo",
+        "Description": "Les points Luo permettent d'agir sur les branches luo longitudinales (Jing Luo) et les branches luo transversales. Les Jing Luo (ou branches longitudinales) sont des branches circulant dans des zones superficielles, et s'expriment donc \u00e0 l'ext\u00e9rieur par la perception des capillaires. Les branches luo transversale font la relation Yin\/Yang, \u00e0 ce titre ils permettent de faire la communication entre un Jing Mai Yin et son Jing Mai Yang coupl\u00e9, et inversement (exemple : @mai_p@ avec @mai_gi@).\nLes points luo peuvent \u00eatre utlis\u00e9s pour extraire une \u00e9nergie perverse qui aurait p\u00e9n\u00e9tr\u00e9 au sein des ces r\u00e9seaux, et de r\u00e9tablir la circulation de l'\u00e9nergie correcte.",
+        "Option1": "",
+        "Option2": "",
+        "Option3": ""
+    },
+    {
+        "Id": "fun_mu",
+        "Shortname": "Points Mu",
+        "Name": "Points Mu",
+        "Description": "Les points Mu agissent sur l'organe associ\u00e9. Ils sont tous situ\u00e9s sur la partie ant\u00e9rieure du tronc (abdomen et thorax). Ils permettent de ramener l'\u00e9nergie correcte \u00e0 un organe et se travaillent donc le plus souvent en tonification, except\u00e9 certains points qui peuvent \u00eatre dispers\u00e9s (exemple du $14F$ qui peut \u00eatre en exc\u00e8s). \nlls peuvent \u00e9galement \u00eatre utilis\u00e9 comme \u00e9l\u00e9ments diagnostics, permettant de mettre au jour une affection interne (\u00e0 la palpation, si le personne ressent une sensibilit\u00e9 au niveau d'un point Mu, o\u00f9 m\u00eame de mani\u00e8re spontan\u00e9e, cela peut signifier une atteinte de l'organe correspondant au point). \u00c0 ce titre, ils peuvent \u00eatre associ\u00e9s au point Yuan, qui lui aussi servira d'\u00e9l\u00e9ment diagnotic \u00e0 la palpation. \nIls agissent en compl\u00e9mentarit\u00e9 avec les points Shu. Une technique d'utilisation de ses points, nomm\u00e9e la technique Shu\/Mu, consiste \u00e0 extraire dans un premier temps, une \u00e9nergie perverse d'un organe par le Shu; et \u00e0 tonifier l'energie correcte de cet organe dans un second temps par le Mu.",
+        "Option1": "",
+        "Option2": "",
+        "Option3": ""
+    },
+    {
+        "Id": "fun_4mers",
+        "Shortname": "Points des Quatre Mers",
+        "Name": "Points des Quatre Mers",
+        "Description": "Les 12 Jing Mai se d\u00e9versent dans de grands r\u00e9servoirs nomm\u00e9s les \"Quatres Mers\". Les points des Quatres Mers permettent d'avoir acc\u00e8s \u00e0 ces syst\u00e8mes. Nous avons donc : \n- la Mer de Eaux et des Grains;\n- la Mer de la Moelle;\n- la Mer du Sang;\n- et la Mer du Qi.",
+        "Option1": "",
+        "Option2": "",
+        "Option3": ""
+    },
+    {
+        "Id": "fun_rev",
+        "Shortname": "Points des Revenants",
+        "Name": "Points des Revenants",
+        "Description": "Les Points des Revenants ont \u00e9t\u00e9 r\u00e9pertori\u00e9s par Sun Si Miao. Ils sont au nombre de 13 (dont un point hors m\u00e9ridien, Hai Quan). Ils sont indiqu\u00e9s dans le cadre de maladies mentales, de type psychose...",
+        "Option1": "",
+        "Option2": "",
+        "Option3": ""
+    },
+    {
+        "Id": "fun_1",
+        "Shortname": "Points Jing(1) (Shu antique)",
+        "Name": "Points Jing(1) (Shu antique)",
+        "Description": "Les points Jing (1), \u00e9galement appel\u00e9s \"points puit\", sont les points plac\u00e9s les plus \u00e0 l'extr\u00e9mit\u00e9 des m\u00e9ridiens (tous sont aux niveaux du bout des doigts). A cet endroit on observe un changement de polarit\u00e9 de l'\u00e9nergie, yin\/yang. Ils permettent notamment d'extraire les \u00e9nergies perverses. Ils apaisent \u00e9galement le Shen. En tant que points de commande des Jing Jin, ils permettent d'agir sur tout le syst\u00e8me tendino-musculaire.",
+        "Option1": "",
+        "Option2": "",
+        "Option3": ""
+    },
+    {
+        "Id": "fun_2",
+        "Shortname": "Points Ying (Shu antique)",
+        "Name": "Points Ying (Shu antique)",
+        "Description": "Les points Ying, \u00e9galement appel\u00e9s \"points de jaillissements\", sont souvent utilis\u00e9s pour extraire une chaleur.",
+        "Option1": "",
+        "Option2": "",
+        "Option3": ""
+    },
+    {
+        "Id": "fun_3",
+        "Shortname": "Points Shu (Shu antique)",
+        "Name": "Points Shu (Shu antique)",
+        "Description": "Les points Shu, \u00e9galement appel\u00e9s \"points rivi\u00e8re\" permettent notamment d'extraire une \u00e9nergie perverse, et sont entre autres utilis\u00e9s dans les probl\u00e8mes articulaires (de type humidit\u00e9).",
+        "Option1": "",
+        "Option2": "",
+        "Option3": ""
+    },
+    {
+        "Id": "fun_4",
+        "Shortname": "Points Jing(2) (Shu antique)",
+        "Name": "Points Jing(2) (Shu antique)",
+        "Description": "Les points Jing(2), \u00e9galement appel\u00e9s \"points fleuve\", r\u00e9tablisse l'\u00e9nergie correct dans le m\u00e9ridien.",
+        "Option1": "",
+        "Option2": "",
+        "Option3": ""
+    },
+    {
+        "Id": "fun_5",
+        "Shortname": "Points He (Shu antique)",
+        "Name": "Points He (Shu antique)",
+        "Description": "Les points He, \u00e9galement appel\u00e9s \"point Mer\", sont les zones o\u00f9 l'\u00e9nergie p\u00e9n\u00e8tre en profondeur. Ils ont une action particuli\u00e8re sur les troubles de l'estomac, les troubles digestifs, cutan\u00e9es et de la voie.",
+        "Option1": "",
+        "Option2": "",
+        "Option3": ""
+    },
+    {
+        "Id": "fun_tian",
+        "Shortname": "Points Tian",
+        "Name": "Points Tian",
+        "Description": "Les points Tian, ou points Fen\u00eatre du Ciel, permettent le passage Ciel\/Terre, font le lien entre le haut et le bas, jouent sur la mont\u00e9e et la descente de l'\u00e9nergie. Ils sont des zones de p\u00e9n\u00e9tration des \u00e9nergies perverses. Ils peuvent \u00eatre utilis\u00e9s pour lib\u00e9rer les obstructions de la nuque et r\u00e9tablir la libre circulation de l'\u00e9nergie dans les m\u00e9ridiens. Ils agissent aussi sur le Shen.",
+        "Option1": "",
+        "Option2": "",
+        "Option3": ""
+    },
+    {
+        "Id": "fun_xi",
+        "Shortname": "Points Xi",
+        "Name": "Points Xi",
+        "Description": "Les points Xi, aussi appel\u00e9s points d'urgence, permettent de d\u00e9sobstruer une stagnation d'\u00e9nergie sur un m\u00e9ridien (souvent lors d'une atteinte aigu\u00eb ou r\u00e9cente).",
+        "Option1": "",
+        "Option2": "",
+        "Option3": ""
+    },
+    {
+        "Id": "fun_yuan",
+        "Shortname": "Points Yuan",
+        "Name": "Points Yuan",
+        "Description": "Les points Yuan, aussi appel\u00e9s points source. Ils sont en lien avec l'\u00e9nergie Originelle, \u00e0 ce titre ils relancent l'\u00e9nergie originelle dans le m\u00e9ridien et\/ou l'organe. Ils peuvent aussi parfois servir comme \u00e9l\u00e9ment diagnostic, l'aspect des points yuan (yin) pouvant signaler une atteinte d'organe.",
+        "Option1": "",
+        "Option2": "",
+        "Option3": ""
+    }
 ]
